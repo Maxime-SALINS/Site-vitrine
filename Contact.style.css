@@ -1,0 +1,11 @@
+/* Styles media pour le resposive*/
+
+@media screen and (min-width: 769px) {
+    /* Styles pour les écrans tablettes */
+}
+
+@media screen and (max-width: 768px) {
+    /* Styles pour les écrans mobiles */
+}
+
+/* Style Header*/
