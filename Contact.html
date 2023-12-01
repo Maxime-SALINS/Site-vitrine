@@ -5,36 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | MS</title>
     <link rel="stylesheet" href="Contact.style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lakki+Reddy&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="asset/photo-perso.jpg" alt="Photo-profil">
-        <h1>Maxime SALINS</h1>
-        <nav>
-            <ul>
+        <div class="header_title">
+            <img id="img_size" src="asset/photo-perso.jpg" alt="Photo-profil">
+            <h1>Maxime SALINS</h1>
+        </div>
+        <nav class="navbar_header">
+            <ul class="ul_navbar_header">
                 <li><a href="index.html">Acceuil</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section id="section_form">
         <form action="">
-            
+            <h2>Contactez moi !</h2>
+            <label for="fname">Prénom</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Nom</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">email</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="subject">Sujet</label><br>
+            <input type="text" id="subject" name="subject"><br>
+            <label for="descript">Message</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+            <input type="submit" value="Envoyer" id="submit">
         </form>
     </section>
     <footer>
-        <a href="Contact.html">Me contacter</a>
+        <a id="Contact_footer" href="Contact.html">Me contacter</a>
         <nav>
-            <p>Mes réseaux :</p>
-            <ul>
-                <li><a href="https://www.instagram.com/maxime_salins/" target="_blank"><img src="asset/Instagram-logo.png" alt="Instagram-logo"></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100010088231718" target="_blank"><img src="asset/FB-logo.png" alt="FB-logo"></a></li>
-                <li><a href="https://github.com/Maxime-SALINS" target="_blank"><img src="asset/Logo-GitHub.png" alt="Logo-GitHub"></a></li>
-                <li><a href="https://discord.gg/mXKbTFPu" target="_blank"><img src="asset/Logo-Discord.png" alt="Logo-Discord"></a></li>
-                <li><a href="https://www.linkedin.com/in/maxime-salins-091b7b204/" target="_blank"><img src="asset/logo-linkedin.png" alt="logo-linkedin"></a></li>
+            <p id="p_footer_1">Mes réseaux :</p>
+            <ul class="ul_navbar_footer">
+                <li><a href="https://www.instagram.com/maxime_salins/" target="_blank"><img id="img_size_insta" src="asset/Instagram-logo.png" alt="Instagram-logo"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100010088231718" target="_blank"><img id="img_size_FB" src="asset/FB-logo.png" alt="FB-logo"></a></li>
+                <li><a href="https://github.com/Maxime-SALINS" target="_blank"><img class="img_size_footer" src="asset/Logo-GitHub.png" alt="Logo-GitHub"></a></li>
+                <li><a href="https://discord.gg/mXKbTFPu" target="_blank"><img class="img_size_footer" src="asset/Logo-Discord.png" alt="Logo-Discord"></a></li>
+                <li><a href="https://www.linkedin.com/in/maxime-salins-091b7b204/" target="_blank"><img class="img_size_footer" src="asset/logo-linkedin.png" alt="logo-linkedin"></a></li>
             </ul>
         </nav>
-        <p>Maxime SALINS - Copyright © 2023 - Tous droits réservés</p>
+        <p id="p_footer">Maxime SALINS - Copyright © 2023 - Tous droits réservés</p>
     </footer>
     <script src="main.js"></script>
 </body>

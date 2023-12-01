@@ -8,4 +8,165 @@
     /* Styles pour les écrans mobiles */
 }
 
-/* Style Header*/
+/*Style body */
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Style Header */
+
+.header_title{
+    background-color: #4972E1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+    height: 10vh;
+}
+
+#img_size{
+    border: 3px dashed white;
+    border-radius: 300%;
+    margin-right: 40%;
+    width: 5rem;
+    height: 5rem;
+}
+
+h1{
+    font-family: 'Lakki Reddy', serif;
+    color: white;
+    width: 25%;
+    margin: 0%;
+}
+
+.navbar_header{
+    background-color: rgba(0 , 0 , 0 , 0.4);
+    width: 12rem;
+}
+
+.ul_navbar_header{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0%;
+}
+
+Li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lakki Reddy' , serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+/* Style formaulaire */
+
+#section_form {
+    background-color: #F09B1A40;
+    border: 6px solid #F09B1A;
+    border-radius: 40px;
+    text-align: center;
+    width: 60rem;
+    padding: 1%;
+    margin : 2% ;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+label{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#fname{
+    border: 6px solid #F09B1A;
+    border-radius: 40px;
+    width: 40rem;
+}
+
+#lname{
+    border: 6px solid #F09B1A;
+    border-radius: 40px;
+    width: 40rem;
+}
+
+#email{
+    border: 6px solid #F09B1A;
+    border-radius: 40px;
+    width: 40rem;
+}
+
+#subject{
+    border: 6px solid #F09B1A;
+    border-radius: 40px;
+    width: 40rem;
+}
+
+#message{
+    border: 6px solid #F09B1A;
+    border-radius: 40px;
+    width: 40rem;
+}
+
+#submit{
+    background-color: #F09B1A;
+    border: 6px solid #F09B1A;
+    border-radius: 40px;
+    color: white;
+
+}
+
+/* Style footer */
+
+footer{
+    background-color: #4971e170;
+    text-align: center;
+    padding: 1.5%;
+}
+
+.ul_navbar_footer{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_size_footer{
+    width: 10vh;
+    height: 10vh;
+}
+
+#img_size_insta {
+    width: 12vh;
+    height: 12vh;
+}
+
+#img_size_FB{
+    width: 7vh;
+    height: 7vh;
+}
+
+#Contact_footer{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#p_footer_1{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#p_footer{
+    margin-bottom: 0%;
+}
