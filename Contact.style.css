@@ -17,12 +17,12 @@ body{
 
 /* Style Header */
 
+
 .header_title{
     background-color: #4972E1;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
     align-items: center;
     align-content: stretch;
     width: 100%;
@@ -32,12 +32,14 @@ body{
 #img_size{
     border: 3px dashed white;
     border-radius: 300%;
-    margin-right: 40%;
+    margin-right: 32%;
+    margin-left: 1.5%;
     width: 5rem;
     height: 5rem;
 }
 
 h1{
+    text-align: center;
     font-family: 'Lakki Reddy', serif;
     color: white;
     width: 25%;
@@ -45,18 +47,25 @@ h1{
 }
 
 .navbar_header{
-    background-color: rgba(0 , 0 , 0 , 0.4);
-    width: 12rem;
+    background-color: white ;
+    width: 100%;
 }
 
 .ul_navbar_header{
     list-style-type: none;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin: 0%;
 }
 
+.style_li{
+    padding: 0.5%;
+    text-align: center
+}
+
 Li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Lakki Reddy' , serif;
     font-weight: bolder;
@@ -65,6 +74,13 @@ Li a {
 
 /* Style formaulaire */
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%; 
+}
+
 #section_form {
     background-color: #F09B1A40;
     border: 6px solid #F09B1A;
@@ -72,15 +88,17 @@ Li a {
     text-align: center;
     width: 60rem;
     padding: 1%;
-    margin : 2% ;
+    margin-bottom: 2%;
 }
 
 h2{
+    font-family: 'Lobster', sans-serif;
     font-weight: bolder;
     font-size: xx-large;
 }
 
 label{
+    font-family: 'Lobster', sans-serif;
     font-weight: bolder;
     font-size: xx-large;
 }
@@ -88,39 +106,63 @@ label{
 #fname{
     border: 6px solid #F09B1A;
     border-radius: 40px;
-    width: 40rem;
+    width: 50rem;
+    height: 2rem;
+    margin: 1.5%;
 }
 
 #lname{
     border: 6px solid #F09B1A;
     border-radius: 40px;
-    width: 40rem;
+    width: 50rem;
+    height: 2rem;
+    margin: 1.5%;
 }
+
 
 #email{
     border: 6px solid #F09B1A;
     border-radius: 40px;
-    width: 40rem;
+    width: 50rem;
+    height: 2rem;
+    margin: 1.5%;
 }
+
 
 #subject{
     border: 6px solid #F09B1A;
     border-radius: 40px;
-    width: 40rem;
+    width: 50rem;
+    height: 2rem;
+    margin: 1.5%;
 }
 
 #message{
     border: 6px solid #F09B1A;
     border-radius: 40px;
-    width: 40rem;
+    width: 50rem;
+    padding: 2%;
+    margin: 1.5%;
 }
 
 #submit{
     background-color: #F09B1A;
     border: 6px solid #F09B1A;
     border-radius: 40px;
+    font-family: 'Lobster', sans-serif;
     color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 15rem;
+    padding: 1%;
+    margin-top: 2%;
+}
 
+#submit:hover{
+    transition: 1s;
+    background-color: #4972E1;
+    border: 6px solid #4972E1;
+    color: black;
 }
 
 /* Style footer */
@@ -154,6 +196,7 @@ footer{
 }
 
 #Contact_footer{
+    font-family: 'Lobster', sans-serif;
     color: white;
     font-size: xx-large;
     font-weight: bolder;
@@ -161,12 +204,13 @@ footer{
 }
 
 #p_footer_1{
+    font-family: 'Lobster', sans-serif;
     color: white;
     font-size: larger;
-    font-weight: bolder;
     text-decoration: underline;
 }
 
 #p_footer{
+    font-family: 'Lobster', sans-serif;
     margin-bottom: 0%;
 }
