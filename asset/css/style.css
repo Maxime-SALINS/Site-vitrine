@@ -8,14 +8,16 @@
     /* Styles pour les écrans mobiles */
 }
 
-/*Style body */
+/*--------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- Style body ----------------------------------------------------*/
 
 body{
     margin: 0%;
     padding: 0%;
 }
 
-/* Style Header */
+/*--------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- Style Header --------------------------------------------------*/
 
 .header_title{
     background-color: #4972E1;
@@ -49,7 +51,7 @@ h1{
     background-color: #4971e140 ;
     border: 3px solid #4972E1;
     width: 100%;
-    height: 3.6rem;
+    height: 2.8rem;
 }
 
 .ul_navbar_header{
@@ -70,7 +72,7 @@ Li a {
     text-decoration: none;
     font-family: 'Lakki Reddy' , serif;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 Li a:hover{
@@ -78,12 +80,13 @@ Li a:hover{
     color: #4972E1;
 }
 
-/* Style Section n°1 : Présentation */
+/*--------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------- Style Section n°1 : Présentation -------------------------------------------*/
 
 .section_présentation{
     border: 6px solid #F09B1A;
     border-radius: 40px;
-    width: 90%;
+    width: 199.5vh;
     margin: 1.5% 3% 0% 3%;
     padding: 1.5%;
     box-shadow: 15px 0px 0px #4972E140;
@@ -100,12 +103,12 @@ Li a:hover{
 
 .p_presentation{
     font-family: 'Outfit', sans-serif;
-    font-size: x-large;
+    font-size: large;
     text-align: justify;
-
 }
 
-/* Style des deux sections : Compétences et parcours*/
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------- Style des deux sections : Compétences et parcours ------------------------------*/
 
 .dispo_section{
     display: flex;
@@ -114,14 +117,15 @@ Li a:hover{
     margin-bottom: 2%;
 }
 
-
-/* Style spécifique section Compétences techniques */
+/*--------------------------------------------------------------------------------------------------------------*/
+/*--------------------------- Style spécifique section Compétences techniques ---------------------------------*/
 
 #style_section_compé{
     border: 6px solid #F09B1A;
     border-radius: 40px;
-    width: 45%;
-    margin-right: 2.6%;
+    width: 95vh;
+    margin-right: 1.5%;
+    padding: 1%;
     box-shadow: 15px 0px 0px #4972E140;
 }
 
@@ -172,14 +176,15 @@ Li a:hover{
     width: 100%;
 }
 
-
-/* Style spécifique section parcours */
+/*--------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------- Style spécifique section parcours ------------------------------------------*/
 
 #style_section_pré{
     border: 6px solid #F09B1A;
     border-radius: 40px;
-    width: 100vh;
-    margin-left: 2.6%;
+    width: 95vh;
+    margin-left: 1%;
+    padding: 1%;
     box-shadow: 15px 0px 0px #4972E140;
 }
 
@@ -216,7 +221,8 @@ Li a:hover{
     color: black;
 }
 
-/* Style footer */
+/*--------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- Style footer --------------------------------------------------*/
 
 footer{
     background-color: #4971e170;
