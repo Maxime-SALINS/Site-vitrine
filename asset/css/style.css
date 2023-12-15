@@ -131,6 +131,10 @@ Li a:hover{
     justify-content: space-around;
 }
 
+.section_ligne_compe{
+    margin-left: 5%;
+}
+
 .dispo_table{
     display: flex;
     justify-content: center;
@@ -166,6 +170,7 @@ Li a:hover{
 /*-------------------------------- Style spécifique section parcours ------------------------------------------*/
 
 #style_section_pré{
+    text-align: center;
     border: 6px solid #F09B1A;
     border-radius: 40px;
     width: 95vh;
@@ -195,11 +200,6 @@ Li a:hover{
 
 .time_section_par{
     font-family: 'Outfit', sans-serif;
-    text-align: left;
-}
-
-.style_lien_pdf{
-    text-align: center;
 }
 
 #CV{
@@ -282,8 +282,8 @@ footer{
         border-radius: 300%;
         margin-right: 25%;
         margin-left: 1.5%;
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .navbar_header{
@@ -342,6 +342,10 @@ footer{
         box-shadow: none;
     }
 
+    .section_ligne_compe{
+        margin-left: 0%;
+    }
+
     .style_h3_compé{
         font-family: 'Outfit', sans-serif;
         font-size: small;
@@ -350,18 +354,11 @@ footer{
     .p_section_comp{
         font-family: 'Outfit', sans-serif;
         font-size: small;
-        text-align: left;
-    }
-
-    .dispo_table{
-        display: flex;
     }
 
     .dispo_img_p{
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 25vh;
+        width: 20vh;
     }
 
     .img_size_section{
@@ -387,6 +384,10 @@ footer{
         font-family: 'Outfit', sans-serif;
         font-size: small;
         text-align: left;
+    }
+
+    .time_section_par{
+        font-size: small;
     }
 
     /*--------------------------------------------------------------------------------------------------------------*/
